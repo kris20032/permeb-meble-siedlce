@@ -7,18 +7,14 @@
 <meta name="description" content="Permeb Paweł Perczak — meble na wymiar w Siedlcach: kuchnie, szafy, garderoby. Usługa CNC i projektowanie wnętrz. 4,7★ w Google. Bezpłatna wycena." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   /* === PALETA — dostosuj do branży === */
-  :root{
-    --cream:#faf5ef; --cream-2:#f3e9df; --espresso:#3a2c25; --espresso-2:#5a463c;
-    --gold:#c2873c; --gold-d:#9c6326; --rose:#e6cdab; --muted:#8a7a6f; --white:#fffdfb;
-    --shadow:0 18px 50px -22px rgba(58,44,37,.45);
-  }
+  :root{ --cream:#f7f6f3; --cream-2:#e9e7e1; --espresso:#1f1d1a; --espresso-2:#46423b; --gold:#a86f3e; --gold-d:#855526; --rose:#e2dccf; --muted:#888178; --white:#ffffff; --shadow:0 20px 50px -24px rgba(28,26,23,.42); }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{font-family:'Poppins',sans-serif;color:var(--espresso);background:var(--cream);line-height:1.65;-webkit-font-smoothing:antialiased}
-  h1,h2,h3,.serif{font-family:'Playfair Display',serif;font-weight:600;line-height:1.15}
+  body{font-family:'Inter',sans-serif;color:var(--espresso);background:var(--cream);line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.serif{font-family:'Sora','Inter',sans-serif;font-weight:600;line-height:1.15}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
   .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.6rem;border-radius:999px;font-weight:500;font-size:.95rem;transition:.25s;cursor:pointer;border:1px solid transparent}
@@ -28,7 +24,7 @@
   .btn-dark:hover{background:var(--espresso-2)}
   header{position:sticky;top:0;z-index:50;background:rgba(250,245,239,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(192,145,95,.18)}
   nav{display:flex;align-items:center;justify-content:space-between;height:72px}
-  .logo{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;letter-spacing:.5px}
+  .logo{font-family:'Sora','Inter',sans-serif;font-size:1.5rem;font-weight:700;letter-spacing:.5px}
   .logo span{color:var(--gold-d)}
   .nav-links{display:flex;align-items:center;gap:2rem}
   .nav-links a{font-size:.92rem;color:var(--espresso-2);transition:.2s}
@@ -42,7 +38,7 @@
   .hero-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:84px 0 92px}
   .eyebrow{display:inline-block;letter-spacing:3px;font-size:.74rem;font-weight:600;color:var(--gold-d);text-transform:uppercase;margin-bottom:18px}
   .hero h1{font-size:clamp(3rem,7vw,5.4rem);font-weight:700;margin-bottom:18px}
-  .hero h1 em{font-style:italic;color:var(--gold-d)}
+  .hero h1 em{font-style:normal;color:var(--gold-d)}
   .hero p.lead{font-size:1.12rem;color:var(--espresso-2);max-width:30rem;margin-bottom:30px}
   .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
   .hero-art{position:relative;height:430px;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);
@@ -69,7 +65,7 @@
   .about-art{height:360px;border-radius:22px;box-shadow:var(--shadow);position:relative;overflow:hidden;display:grid;place-items:center;color:#fff;text-align:center;
       background:url('img/about.jpg') center/cover no-repeat,linear-gradient(140deg,#3a2c25,#5a463c)}
   .about-art::before{content:"";position:absolute;inset:0;background:linear-gradient(160deg,rgba(58,44,37,.42),rgba(58,44,37,.68))}
-  .about-art .q{position:relative;z-index:2;font-family:'Playfair Display',serif;font-style:italic;font-size:1.5rem;padding:34px;line-height:1.4;text-shadow:0 3px 16px rgba(0,0,0,.45)}
+  .about-art .q{position:relative;z-index:2;font-family:'Sora','Inter',sans-serif;font-style:italic;font-size:1.5rem;padding:34px;line-height:1.4;text-shadow:0 3px 16px rgba(0,0,0,.45)}
   .about-art .q span{color:var(--gold)}
   .about-txt h2{font-size:clamp(1.9rem,3.6vw,2.6rem);margin-bottom:18px}
   .about-txt p{color:var(--espresso-2);margin-bottom:16px}
