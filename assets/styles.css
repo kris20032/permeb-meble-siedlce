@@ -386,6 +386,6 @@ section{padding-block:clamp(64px,8vw,128px)}
 @media(max-width:760px){.gateways{grid-template-columns:1fr}.gateway{aspect-ratio:16/10}}
 
 /* 8) LOGO klienta w nagłówku (gdy podane --logo) */
-.brand-logo{height:40px;width:auto;max-width:220px;object-fit:contain;display:block}
+.brand-logo{height:44px;width:auto;max-width:240px;object-fit:contain;display:block;border-radius:8px;box-shadow:0 2px 8px rgba(21,19,14,.25)}
 .nav.is-stuck .brand-logo{height:34px}
 @media(max-width:680px){.brand-logo{height:32px}}
